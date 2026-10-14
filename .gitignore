@@ -1,0 +1,15 @@
+*.rds
+*.RData
+*.h5
+!example_data/*.h5
+*.h5ad
+*.mtx
+*.mtx.gz
+*.tsv.gz
+*.xlsx
+*.csv
+*.pdf
+*.png
+data/
+outputs/
+.DS_Store
