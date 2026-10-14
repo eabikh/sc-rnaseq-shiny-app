@@ -210,6 +210,8 @@ cDC1,"CLEC9A,XCR1,BATF3"
 
 **How to load it:** in the sidebar, set **Species = Mouse** and **Format = 10X H5**. Leave *Multiple Datasets* unticked, upload the file as the H5 file, and click **Load Data**.
 
+For ScType annotation of this dataset, select **Spleen** or **Immune system** as the tissue.
+
 Because this is a single sample, it demonstrates QC, clustering, markers, annotation and subclustering. The multi-sample features (integration, split-by-sample plots, condition DE, and GSEA/ORA on condition comparisons) require two or more samples.
 
 ---
