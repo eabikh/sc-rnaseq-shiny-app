@@ -317,3 +317,5 @@ DOI to be added
 - **fgsea**: Korotkevich et al., *bioRxiv* (2021)
 - **MSigDB**: Liberzon et al., *Cell Systems* (2015)
 - **clusterProfiler**: Wu et al., *The Innovation* (2021)
+
+See VERSIONS.md for tested package versions and reproducibility notes.
