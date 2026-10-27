@@ -243,6 +243,8 @@ BiocManager::install(c(
 
 `harmony` and `HGNChelper` are also installed automatically the first time Harmony or ScType runs, if they are missing.
 
+Note: the analysis this app was developed on used harmony 1.2.4. Current CRAN versions (2.x) gave different clustering in testing, though other package versions also differed. To match the tested setup, see [VERSIONS.md](VERSIONS.md).
+
 ### Running the App
 
 **1. Clone the repo (in terminal):**
@@ -318,4 +320,4 @@ DOI to be added
 - **MSigDB**: Liberzon et al., *Cell Systems* (2015)
 - **clusterProfiler**: Wu et al., *The Innovation* (2021)
 
-See VERSIONS.md for tested package versions and reproducibility notes.
+See [VERSIONS.md](VERSIONS.md) for tested package versions and reproducibility notes.
