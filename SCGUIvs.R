@@ -1165,7 +1165,6 @@ ui <- fluidPage(
               ),
 
               tabPanel("Conserved Markers",
-                uiOutput("de_samp_ui"),
                 h4("Conserved Markers",class="sh"),
                 div(class="ib",tags$b("FindConservedMarkers")," finds genes that mark a cluster robustly regardless of condition — uses all samples simultaneously."),
                 fluidRow(column(4,uiOutput("cons_clust_ui")),column(4,br(),actionButton("run_cons","Run",class="btn-primary"))),br(),
